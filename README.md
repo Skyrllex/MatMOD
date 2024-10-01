@@ -1,24 +1,19 @@
 # MatMOD
-Релизация подсчета точек в прямоугольнике методом половинного деления и перебором.
+Implementation of counting points in a rectangle using the bisection method and enumeration.
 
-Метод перебора, проверяет меньше или равна точка координатам границ прямоугольника. 
-Метода половинного деления, включает в себя предобработку данных, где создается матрица на основе количества элементов и заполняется в зависимости от пограничных клеток. При подсчете количества точек, берутся соответствующие координатам прямоугольника ячейки матрицы и складываются определенным образом.
+The enumeration method checks whether a point is less than or equal to the coordinates of the rectangle's boundaries.
 
+The bisection method includes data preprocessing, where a matrix is ​​created based on the number of elements and filled depending on the border cells. When counting the number of points, the matrix cells corresponding to the rectangle's coordinates are taken and added together in a certain way.
 
-Программа содержит в себе алгоритм, который:
-⦁	Принимает на вход число, введенное пользователем;
-⦁	На основе введенного числа генерирует точки и графически отображает их на плоскости;
-⦁	На этой плоскости пользователь рисует прямоугольник параллельный осям координат, который при желании пользователь может перерисовать, не меняя исходных данных;
-⦁	Программа считает количество точек, с помощью двух разных методов, выводить время, за которое каждый алгоритм справляется с задачей;
+The program contains an algorithm that:
+⦁ Accepts a number entered by the user as input;
+⦁ Based on the entered number, generates points and graphically displays them on a plane;
+⦁ On this plane, the user draws a rectangle parallel to the coordinate axes, which the user can redraw if desired without changing the original data;
+⦁ The program counts the number of points using two different methods, displaying the time it takes each algorithm to complete the task;
 
-
-# ИНСТРУКЦИЯ 
-Введите число точек. Нажмите кнопку готово. На плоскости случайным образом отобразятся точки. 
-Для того, чтобы нарисовать прямоугольник щелкните мышкой один раз на начальной точке прямоугольника и один раз на конечной. 
-Рассчитается количество точек внутри прямоугольника и время подсчета методов.
-Для того, чтоб нарисовать еще один прямоугольник, с этими данными, просто нарисуйте его повторно. 
-Или введите координаты и нажмите кнопку - готово и данные обновятся. 
-
-
-
-
+# INSTRUCTIONS
+Enter the number of points. Click the done button. Points will be randomly displayed on the plane.
+To draw a rectangle, click the mouse once on the starting point of the rectangle and once on the end point.
+The number of points inside the rectangle and the time of calculation of the methods will be calculated.
+To draw another rectangle with these data, simply draw it again.
+Or enter the coordinates and click the button - done and the data will be updated.
